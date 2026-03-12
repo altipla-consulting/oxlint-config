@@ -6,7 +6,7 @@ Oxlint shared config.
 ## Install
 
 ```shell
-npm i -D @altipla/oxlint-config
+pnpm add -D oxlint oxlint-tsgolint @altipla/oxlint-config
 ```
 
 
@@ -17,6 +17,6 @@ Configure your `.oxlintrc.json` file:
 ```json
 {
   "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "extends": ["@altipla/oxlint-config"]
+  "extends": ["./node_modules/@altipla/oxlint-config/oxlintrc.json"]
 }
 ```
