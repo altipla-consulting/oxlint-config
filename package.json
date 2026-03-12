@@ -12,6 +12,9 @@
   "author": "Altipla Consulting",
   "license": "MIT",
   "packageManager": "pnpm@10.20.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "oxlint": "^1.54.0"
   }
