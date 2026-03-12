@@ -4,7 +4,7 @@
   "description": "Oxlint shared config.",
   "main": "oxlint.json",
   "scripts": {
-    "test": ""
+    "test": "exit 0"
   },
   "files": [
     "oxlint.json"
