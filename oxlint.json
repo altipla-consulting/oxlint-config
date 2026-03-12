@@ -1,0 +1,32 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "rules": {
+    "no-unnecessary-condition": ["error", { "allowConstantLoopConditions": "only-allowed-literals" }],
+    "no-var": "error",
+    "typescript/no-unnecessary-type-assertion": "error",
+    "typescript/no-misused-promises": [
+      "error",
+      {
+        "checksVoidReturn": {
+          "arguments": false
+        }
+      }
+    ],
+    "no-restricted-imports": [
+      "error",
+      {
+        "paths": [
+          {
+            "name": "lodash",
+            "message": "Please use lodash-es instead."
+          }
+        ]
+      }
+    ],
+    "curly": "error"
+  },
+  "options": {
+    "typeAware": true,
+    "maxWarnings": 0
+  }
+}

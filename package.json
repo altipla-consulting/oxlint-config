@@ -1,0 +1,18 @@
+{
+  "name": "@altipla/oxlint-config",
+  "version": "0.0.0",
+  "description": "Oxlint shared config.",
+  "main": "oxlint.json",
+  "scripts": {
+    "test": ""
+  },
+  "files": [
+    "oxlint.json"
+  ],
+  "author": "Altipla Consulting",
+  "license": "MIT",
+  "packageManager": "pnpm@10.20.0",
+  "devDependencies": {
+    "oxlint": "^1.54.0"
+  }
+}
