@@ -1,6 +1,6 @@
 {
   "name": "@altipla/oxlint-config",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Oxlint shared config.",
   "main": "oxlintrc.json",
   "scripts": {
