@@ -6,6 +6,10 @@
   "scripts": {
     "test": "exit 0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/altipla-consulting/oxlint-config.git"
+  },
   "files": [
     "oxlintrc.json"
   ],
