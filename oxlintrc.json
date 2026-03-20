@@ -11,6 +11,7 @@
         }
       }
     ],
+    "typescript/restrict-template-expressions": ["error", { "allowNever": true }],
     "no-restricted-imports": [
       "error",
       {
