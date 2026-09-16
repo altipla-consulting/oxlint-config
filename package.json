@@ -15,7 +15,7 @@
   ],
   "author": "Altipla Consulting",
   "license": "MIT",
-  "packageManager": "pnpm@10.20.0",
+  "packageManager": "pnpm@12.4.2",
   "publishConfig": {
     "access": "public"
   },
