@@ -1,6 +1,15 @@
 {
   "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["import"],
   "rules": {
+    "import/extensions": [
+      "error",
+      "never",
+      {
+        "css": "always",
+        "vue": "always"
+      }
+    ],
     "no-var": "error",
     "typescript/no-unnecessary-type-assertion": "error",
     "typescript/no-misused-promises": [
