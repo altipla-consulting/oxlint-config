@@ -4,10 +4,15 @@
   "rules": {
     "import/extensions": [
       "error",
-      "never",
+      "always",
       {
-        "css": "always",
-        "vue": "always"
+        "json": "never",
+        "js": "never",
+        "jsx": "never",
+        "mjs": "never",
+        "mts": "never",
+        "ts": "never",
+        "tsx": "never"
       }
     ],
     "no-var": "error",
