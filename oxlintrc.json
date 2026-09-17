@@ -6,7 +6,6 @@
       "error",
       "always",
       {
-        "json": "never",
         "js": "never",
         "jsx": "never",
         "mjs": "never",
