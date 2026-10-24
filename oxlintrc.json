@@ -38,6 +38,14 @@
     ],
     "curly": "error"
   },
+  "overrides": [
+    {
+      "files": ["**/astro.config.{js,mjs,cjs,ts,mts,cts}"],
+      "rules": {
+        "import/default": "off"
+      }
+    }
+  ],
   "options": {
     "typeAware": true,
     "maxWarnings": 0
